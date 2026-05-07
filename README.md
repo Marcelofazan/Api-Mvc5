@@ -16,11 +16,8 @@ Para executar a aplicação é necessário a execução do Script do MySQL.
 
 Modifique a string de conexão no arquivo **Web.config**, no trecho indicado:
 
-```json
-...
-	connectionString="server=127.0.0.1;userid=root;password=SUASENHA;database=apimvc5;pooling=true;includesecurityasserts=true;AllowUserVariables=True;"
-...
-
+```bash
+connectionString="server=127.0.0.1;userid=root;password=SUASENHA;database=apimvc5;pooling=true;includesecurityasserts=true;AllowUserVariables=True;"
 ```
 
 O script para criação da tabela do exemplo encontra-se na pasta **Database**.
